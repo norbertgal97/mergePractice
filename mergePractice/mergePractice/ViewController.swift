@@ -12,11 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        write(string: "Hello!")
+        // Do any additional setup after loading the view.
+        write(string1: "Hello", string2: "World!")
     }
 
-    func write(string: String) {
-        print(string)
+    func write(string1: String, string2: String) {
+        print(string1)
+        print(string2)
     }
 }
 
